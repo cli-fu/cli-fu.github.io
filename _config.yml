@@ -1,0 +1,16 @@
+---
+title: CLI-Fu
+
+exclude: ['/scripts', '/Gemfile', '/Makefile', '/README.md', '/CONTRIBUTING.md']
+
+permalink: pretty
+
+collections:
+  clifu:
+    output: true
+
+defaults:
+  - scope:
+      path: '_clifu'
+    values:
+      layout: bin
